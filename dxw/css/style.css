@@ -1,0 +1,64 @@
+/*All tag*/
+*
+{font-family: Microsoft YaHei UI;font-size: 14px;margin: 0;padding: 0;border: none;}
+a{text-decoration: none;}
+/*header*/
+header{height: 80px;background: #2e2e2e;}
+header.container{width: 1200px;margin: 0 auto;}
+header > .container > a{display: block;float: left;margin: 20px 25px;}
+header > .container > nav{float: right;}
+header > .container > nav > a{font-size: 14px;line-height: 73px;display: block;float: left;width: 110px;height: 73px;text-align: center;color: #fff;}
+header > .container > nav > a:hover{color: #f46208;background-color: red;}
+/*banner*/
+.banner{position: relative;width: 100%;text-align: center;}
+.banner > img{width: 100%;}
+.banner > h1{font-size: 5em;font-weight: bold;position: absolute;top: 36%;width: 100%;color: #fff;}
+.banner > p{font-size: 1.0em;font-weight: bold;position: absolute;top: 52%;width: 100%;color: #fff;}
+/*portfolio*/
+.portfolio > h1{font-size: 2.5em;text-align: center;letter-spacing: 8px;color: #f46208;}
+.portfolio > p{font-size: 1em;margin: 10px;text-align: center;color: #f46208;}
+.portfolio > nav{
+	font-size: 24px;
+	line-height: 70px;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;}
+.portfolio > nav > a{
+	line-height: 30px;
+	display: block;
+	float: left;
+	width: 70px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	color: #f46208;border: 1px solid #f46208;
+	background-color: #fff;}
+.portfolio > nav > a:hover{color: #fff;background-color: #f46208;}
+.portfolio > img{width: 100%;}
+/*Stats*/
+.Stats > h1{font-size: 2.5em;text-align: center;letter-spacing: 8px;color: #f46208;}
+.Stats > p{font-size: 1em;margin: 10px;text-align: center;}
+.Stats{width: 710px;height: 370px;margin: 0 auto;}
+.Stats > dl{float: left;margin: 40px 50px;text-align: center;}
+.Stats > dl > dd{line-height: 30px;}
+.Stats > dl > dd:last-of-type{font-size: 1.5em;letter-spacing: 3px;color: #f46208;}
+/*team*/
+.team{position: relative;width: 100%;height: 470px;margin: 0 auto;background: #2e2e2e;}
+.team > h1{font-size: 2.5em;margin: 20px;text-align: center;letter-spacing: 8px;color: #f46208;}
+.team > p{margin: 10px;text-align: center;color: #fff;}
+.team > dl.left{position: absolute;top: 60%;left: 20%;transform: translate(-50%,-50%);}
+.team > dl.active{position: absolute;top: 60%;left: 50%;transform: translate(-50%,-50%);}
+.team > dl.right{position: absolute;top: 60%;left: 80%;transform: translate(-50%,-50%);}
+.team > dl > dd{text-align: center;color: #fff;}
+/*contact*/
+.contact > h1{font-size: 2.5em;margin: 30px;text-align: center;letter-spacing: 8px;color: #f46208;}
+.contact > p{margin: 10px;text-align: center;}
+.contact{position: relative;height: 1000px;}
+.name{position: absolute;top: 20%;left: 32%;width: 450px;height: 35px;transform: translate(-50%,-50%);border: gray 1px solid;}
+.email{position: absolute;top: 20%;left: 67%;width: 450px;height: 35px;transform: translate(-50%,-50%);border: gray 1px solid;}
+.message{position: absolute;top: 50%;left: 49.5%;width: 930px;height: 500px;transform: translate(-50%,-50%);border: gray 1px solid;}
+.mm{position: absolute;top: 85%;left: 50%;width: 120px;height: 50px;transform: translate(-50%,-50%);color: #fff;background: #f46208;}
+/*footer*/
+footer{position: relative;width: 100%;height: 64px;margin: 0 auto;background-color: #2e2e2e;}
+footer > .sb > p{line-height: 64px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);color: #fff;--}
